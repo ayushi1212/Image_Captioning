@@ -41,3 +41,7 @@ To train the model:
 
 (training-script : train.py)
 Demo for training is provided in demo_train_imgcap.py
+
+To run api:
+run custom_infer_api.py, localhost is inside this scrpit. After running click on the link, upload image and press execute. Output example is present as custom_infer_api.png.
+
