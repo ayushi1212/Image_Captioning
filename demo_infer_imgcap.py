@@ -9,13 +9,13 @@ Original file is located at
 #Custom image infer
 """
 
-!!python /content/drive/MyDrive/image_caption/custom_img_infer.py [PATH TO IMAGE DATA FOLDER]
+#!!python /content/drive/MyDrive/image_caption/custom_img_infer.py [PATH TO IMAGE DATA FOLDER]
 
 !python /content/drive/MyDrive/image_caption/custom_img_infer.py '/content/test_folder'
 
 """#Infer with Flicker8k Dataset"""
 
-!!python /content/drive/MyDrive/image_caption/infer.py [PATH TO FLICKER TEXT FOLDER] [PATH TO FLICKER DATASET FOLDER]
+#!!python /content/drive/MyDrive/image_caption/infer.py [PATH TO FLICKER TEXT FOLDER] [PATH TO FLICKER DATASET FOLDER]
 
 !python /content/drive/MyDrive/image_caption/infer.py '/content/flicker_text' '/content/Flicker8k_Dataset'
 
