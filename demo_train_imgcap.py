@@ -22,5 +22,6 @@ sys.path.insert(0,'/content/drive/MyDrive/image_caption')
 
 os.makedirs("model_res", exist_ok=True)
 
+#!python path_to_training_script [PATH TO TEXT FILE] [PATH TO DATASET FOLDER] [NUMBER OF EPOCHS]
 !python /content/drive/MyDrive/image_caption/train.py '/content/flicker_text' '/content/Flicker8k_Dataset' 1
 
